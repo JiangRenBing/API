@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>APICloud跨平台APP技术专家 - 中国领先移动云服务平台</title>
+        <link rel="shortcut icon" href="img/favicon.png"/>
+		<link rel="stylesheet" href="css/API.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+	</head>
+
+	<body>
+		<ul id="fix" class="fix">
+			<li class="fix_left">
+				<a href="#">
+					<img id="fix_left" src="img/logo-light.png" />
+				</a>
+			</li>
+			<ul class="fix_right">
+				<li class="fix_top1 fix_top">
+					<a class="yanse" href="#">APP开发</a>
+					<div id="fix_top1_down">
+						<a class="fix_top1_down_1" href="#">
+							<span class="fix_top1_bg fix_top1_bg_1"></span>
+							<span>SuperWebView<br/>帮助原生程序员快速迭代</span>
+						</a>
+						<a class="fix_top1_down_1" href="#">
+							<span class="fix_top1_bg fix_top1_bg_2"></span>
+							<span>Deep Engine<br/>高效的跨平台APP引擎</span>
+						</a>
+						<a class="fix_top1_down_1" href="#">
+							<span class="fix_top1_bg fix_top1_bg_3"></span>
+							<span>数据云<br/>无需编程 自动生成Server端</span>
+						</a>
+					</div>
+				</li>
+				<li class="fix_top2 fix_top">
+					<a class="yanse" href="#">云管理</a>
+				</li>
+				<li class="fix_top3 fix_top">
+					<a class="yanse" href="#">聚合API</a>
+				</li>
+				<li class="fix_top4 fix_top">
+					<a class="yanse" href="#">开发者</a>
+					<div id="fix_top4_down" class="fix_top4_down">
+						<a class="fix_top1_down_1" href="#">开发工具</a>
+						<a class="fix_top1_down_1" href="#">在线社区</a>
+						<a class="fix_top1_down_1" href="#">文档</a>
+						<a class="fix_top1_down_1" href="#">视频教程</a>
+						<a class="fix_top1_down_1" href="#">源码</a>
+						<a class="fix_top1_down_1" href="#">案例</a>
+					</div>
+				</li>
+				<li class="fix_top5 fix_top">
+					<a class="yanse" href="#">VIP服务</a>
+					<div id="fix_top5_down" class="fix_top5_down">
+						<a class="fix_top1_down_1" href="#">企业版</a>
+						<a class="fix_top1_down_1" href="#">优先技术支持</a>
+						<a class="fix_top1_down_1" href="#">渠道打包</a>
+						<a class="fix_top1_down_1" href="#">培训教程</a>
+						<a class="fix_top1_down_1" href="#">优惠价格</a>
+					</div>
+				</li>
+				<li class="fix_top6">
+					<a href=""><button id="denglu">登录</button></a>
+					<a href=""><button id="zhuce">注册</button></a>
+				</li>
+			</ul>
+		</ul>
+		<!--header开始-->
+		<header>
+			<img class="header_img" src="img/banner-20160810.jpg" />
+			<ul class="header_nav">
+				<li class="header_nav_1">APICloud 云端一体</li>
+				<li class="header_nav_2">重新定义移动应用开发</li>
+				<li class="header_nav_3">
+					<a href="#">
+						<button id="liji">立即注册</button>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<main>
+			<article class="jishu">
+				<section class="main_top_1">使用HTML5轻松开发高性能iOS、Android原生应用</section>
+				<section class="main_top_2">使用标准WEB技术轻松开发iOS、Android原生应用；覆盖APP全生命周期，包括开发、API集成、测试、渠道打包、运营管理等</section>
+				<section class="main_top_3">
+					<p class="main_top_dt">创建应用<br/><span style="font-size: 28px; color: #999;">495,665</span>个</p>
+					<p class="main_top_dt">累计生成安装包<br/><span style="font-size: 28px; color: #999999;">1,678,304</span>个</p>
+					<p class="main_top_dt">API调用<br/><span style="font-size: 28px; color: #999999;">11,122,833,564</span>次</p>
+				</section>
+			</article>
+			<article class="phone">
+				<h1 class="phone_top">使用APICloud开发各类App</h1>
+				<section class="phone_center">
+					<p class="phone_center_left">
+						<span class="phone_dian" onclick="phone_dian(0)" id="phone_dian1"></span>
+						<span class="phone_dian" onclick="phone_dian(1)" id="phone_dian2"></span>
+						<span class="phone_dian" onclick="phone_dian(2)" id="phone_dian3"></span>
+					</p>
+					<div class="phone_center_right">
+						<div class="phone_1" onmouseover="showTime1(0)" onmouseout="lev()">
+							<div class="phone_center_right_text1">IOT</div>
+							<div>
+								<img src="img/opler.png" />
+							</div>
+							<div class="phone_center_right_text2">Opler</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime1(1)" onmouseout="lev()">
+							<div class="phone_center_right_text1">生活服务</div>
+							<div>
+								<img src="img/chunqiu.png" />
+							</div>
+							<div class="phone_center_right_text2">春秋航空</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime1(2)" onmouseout="lev()">
+							<div class="phone_center_right_text1">体育</div>
+							<div>
+								<img src="img/oozq.png" />
+							</div>
+							<div class="phone_center_right_text2">偶偶足球</div>
+						</div>
+					</div>
+					<div class="phone_center_right">
+						<div class="phone_1" onmouseover="showTime2(3)" onmouseout="lev()">
+							<div class="phone_center_right_text1">电商</div>
+							<div>
+								<img src="img/ls.png" />
+							</div>
+							<div class="phone_center_right_text2">狸米老师</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime2(4)" onmouseout="lev()">
+							<div class="phone_center_right_text1">生活服务</div>
+							<div>
+								<img src="img/zhongxingfu.png" />
+							</div>
+							<div class="phone_center_right_text2">中兴村</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime2(5)" onmouseout="lev()">
+							<div class="phone_center_right_text1">生活服务</div>
+							<div>
+								<img src="img/liuliangbao.png" />
+							</div>
+							<div class="phone_center_right_text2">流量钱包</div>
+						</div>
+					</div>
+					<div class="phone_center_right">
+						<div class="phone_1" onmouseover="showTime3(6)" onmouseout="lev()">
+							<div class="phone_center_right_text1">生活服务</div>
+							<div>
+								<img src="img/xiaocong.png" />
+							</div>
+							<div class="phone_center_right_text2">小葱钱包</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime3(7)" onmouseout="lev()">
+							<div class="phone_center_right_text1">生活服务</div>
+							<div>
+								<img src="img/ibaifang.png" />
+							</div>
+							<div class="phone_center_right_text2">百芳网</div>
+						</div>
+						<div class="phone_1" onmouseover="showTime3(8)" onmouseout="lev()">
+							<div class="phone_center_right_text1">o2o</div>
+							<div>
+								<img src="img/tieniu.png" />
+							</div>
+							<div class="phone_center_right_text2">铁牛养车</div>
+						</div>
+					</div>
+				</section>
+				<section class="phone_nav">
+					<div class="phone_js phone_jsT">
+						Opler智能温控器，专注打造地暖已装、新装用户及售后服务市场的B2B2C及O2O商业模式平台。<br />
+                        Opler 创始人& CEO 杨凡
+					</div>
+					<div class="phone_js phone_jsT">
+						狸米事一套打通教师、学生和家长三方的互联网教育平台，目前在全国超过100所公立学校全面部署使用。<br />
+						狸米老师 副总裁  张楠
+					</div>
+					<div class="phone_js phone_jsT">
+						为了小钱压力三大的蓝领们，福音来了，只要您讲信用够靠谱，小葱借钱帮你统统都解决，妥妥滴！<br />
+						小葱钱包 CEO KAIC
+					</div>
+				</section>
+				<a class="phone_bottom" href="#">更多案例</a>
+			</article>
+			<div class="APP">
+				<h1 class="APP_top">APP开发</h1>
+				<div class="APP_bottom">
+					<p class="APP_ng">SuperWebView</p>
+					<p class="APP_xj">
+						iOS与Android原生工程师，使用SuperWebView<br />
+						大幅度缩短Native APP迭代周期
+					</p>
+					<a href="#" class="APP_btn">SuperWebView</a>
+				</div>
+				<div class="APP_bottom">
+					<p class="APP_ng">Deep Engine</p>
+					<p class="APP_xj">
+						架构的工程师和前端工程师，使用Deep Engine<br />
+						可以快速开发iOS、Android原生应用
+					</p>
+					<a href="#" class="APP_btn">Deep Engine</a>
+				</div>
+			</div>
+			<div id="API" class="API">
+				<img class="API_img" src="img/filter.png" />
+				<div class="API_nav">
+					<h1 class="API_nav_h1">聚合API</h1>
+					<p class="API_nav_p">
+						<span style="font-size: 24px;">一站式</span>
+						提供海量聚合API&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span style="font-size: 24px;">一站式</span>
+						集成跨平台开放SDK
+					</p>
+				</div>
+			</div>
+			<div class="yun">
+				<h1 class="yun_h1">云管理</h1>
+				<p class="yun_p">云引擎加速云端开发，包括可视化构建数据模型与云端执行环境；APP运营管理通用的精华服务，无忧提供</p>
+				<div class="yun_bottom">
+					<dl class="yun_bottom_dl">
+						<dt>
+							<img src="img/manager_01.png" />
+						</dt>
+						<dd>数据服务</dd>
+					</dl>
+					<dl class="yun_bottom_dl">
+						<dt>
+							<img src="img/manager_02.png" />
+						</dt>
+						<dd>推送</dd>
+					</dl>
+					<dl class="yun_bottom_dl">
+						<dt>
+							<img src="img/manager_03.png" />
+						</dt>
+						<dd>云修复</dd>
+					</dl>
+					<dl class="yun_bottom_dl">
+						<dt>
+							<img src="img/manager_04.png" />
+						</dt>
+						<dd style="margin-top: 30px;">版本更新</dd>
+					</dl>
+					<dl class="yun_bottom_dl">
+						<dt>
+							<img src="img/manager_05.png" />
+						</dt>
+						<dd>大数据分析</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="video">
+				<video poster="img/video-banner.jpg" width="100%" height="800px" loop autoplay>
+				    <source src="video/20ss.mp4"></source>
+			    </video>
+			<ul class="video_nav">
+				<li class="video_nav_1">云又一次超越自己的技术探索管理</li>
+				<li class="video_nav_2">融合，再融合</li>
+				<li class="bofang"></li>
+				<li>
+					<a class="video_zc" href="#">快速注册</a>
+				</li>
+			</ul>
+			</div>
+			<div class="video2">
+				<video controls autoplay loop>
+				    <source src="video/20ss.mp4"></source>
+			    </video>
+			    <div id="close">
+			    	<p></p>
+			    </div>
+			</div>
+			<div class="login_qiang">
+				<h1 class="login_h1">合作伙伴</h1>
+				<div id="lunbo">
+					<ul class="partner">
+					    <li class="partner_k">
+					    	<p class="partner_bg m1"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m2"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m3"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m4"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m5"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m6"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m7"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m8"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m9"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m10"></p>
+					    </li>
+				   </ul>
+				   <ul class="partner">
+					    <li class="partner_k">
+					    	<p class="partner_bg m11"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m12"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m13"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m14"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m15"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m16"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m17"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m18"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m19"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m20"></p>
+					    </li>
+				   </ul>
+				   <ul class="partner">
+					    <li class="partner_k">
+					    	<p class="partner_bg m1"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m2"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m3"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m4"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m5"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m6"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m7"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m8"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m9"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m10"></p>
+					    </li>
+				   </ul>
+				   <ul class="partner">
+					    <li class="partner_k">
+					    	<p class="partner_bg m11"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m12"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m13"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m14"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m15"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m16"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m17"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m18"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m19"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m20"></p>
+					    </li>
+				   </ul>
+				   <ul class="partner">
+					    <li class="partner_k">
+					    	<p class="partner_bg m51"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m52"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m53"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m54"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m55"></p>
+					    </li>
+					    <li class="partner_k">
+					    	<p class="partner_bg m56"></p>
+					    </li>
+				   </ul>
+				</div>
+				<ul>
+				    <li class="point" onclick="show(0)"></li>
+				    <li class="point" onclick="show(1)"></li>
+				    <li class="point" onclick="show(2)"></li>
+				    <li class="point" onclick="show(3)"></li>
+				    <li class="point" onclick="show(4)"></li>
+				</ul>
+			</div>
+		</main>
+		<iframe src="footer.html"></iframe>
+	</body>
+	<script type="text/javascript" src="js/API_fix.js" ></script>
+	<script type="text/javascript" src="js/API_tan.js" ></script>
+	<script type="text/javascript" src="js/lunbo.js" ></script>
+
+</html>
